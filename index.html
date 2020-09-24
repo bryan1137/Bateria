@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/tambores.png" type="icon/gru">
+    <title>Drumkit</title>
+</head>
+
+<body>
+    <div class="instructions">
+        <h2>Instrucciones</h2>
+
+        <p><strong>- Bombo</strong> Teclas: M & B</p>
+        <p><strong>- Caja</strong> Teclas: Z </p>
+        <p><strong>- Tom suelo</strong> Teclas: F & J</p>
+        <p><strong>- TOM Aereo 1</strong> Teclas: S & L</p>
+        <p><strong>- TOM Aereo 2</strong> Teclas: K & D</p>
+        <p><strong>- Plato Ride</strong> Tecla: N</p>
+        <p><strong>- Plato hit hat </strong> Tecla: X</p>
+    </div>
+    <div class="master">
+        <!--BEGING BOMBO-->
+        <div class="bombo key" data-key="77">
+            <div class="metalring-bombo"></div>
+            <div class="metalring-bombo2"></div>
+            <div class="metalring-bombo3"></div>
+        </div>
+        <div class="leg-bombo leg-left"></div>
+        <div class="leg-bombo leg-right"></div>
+        <!--END BOMBO-->
+
+        <!--BIGIN TOM-->
+        <div class="metalring-tom"></div>
+        <div class="tom-1 key" data-key="76">
+            <div class="detail-tom1 detail-color-1 key" data-key="76"></div>
+            <div class="detail-tom1 detail-color-2 key" data-key="76"></div>
+        </div>
+        <div class="tom-2 key" data-key="75">
+            <div class="detail-tom2 detail-color-1 key" data-key="75"></div>
+            <div class="detail-tom2 detail-color-2 key" data-key="75"></div>
+        </div>
+        <!--END TOM-->
+
+        <!--BEGIN TOM SUELO-->
+
+        <div class="tom-suelo key" data-key="74">
+            <div class="detail-tom-suelo detail-tom-suelo-color1 key" data-key="74"></div>
+            <div class="detail-tom-suelo detail-tom-suelo-color2 key" data-key="74"></div>
+            <div class="detail-tom-suelo detail-tom-suelo-color3 key" data-key="74"></div>
+            <div class="leg-tom-suelo"></div>
+            <div class="leg-tom-suelo-right"></div>
+        </div>
+        <!--END TOM SUELO-->
+
+        <!--BEGIN PLATO RIDE-->
+        <div class="metalring-plato-ride">
+            <div class="driving-screw"></div>
+        </div>
+        <div class="plato-ride key" data-key="78"></div>
+        <!--END PLATO RIDE-->
+
+        <!--INICIO CAJA-->
+        <div class="caja key" data-key="190">
+            <div class="detail-caja detail-caja-color1 key" data-key="190"></div>
+            <div class="detail-caja detail-caja-color2 key" data-key="190"></div>
+            <div class="metalring-caja">
+                <div class="metalring-top-caja"></div>
+            </div>
+        </div>
+        <!--END CAJA-->
+
+        <!--BEGIN PLATO HIT HAT OR CHARLES-->
+        <div class="metalring-plato-hit-hat">
+            <div class="driving-screw-plato-hit-hat"></div>
+        </div>
+        <div class="platos-hit-hat key" data-key="188">
+            <div class="plato-hit-hat-top key" data-key="188"></div>
+            <div class="plato-hit-hat-bottom key" data-key="188"></div>
+        </div>
+        <!--END PLATO HIT HAT OR CHARLES-->
+    </div>
+
+    <audio src="sounds/bombo.mp3" data-key="77"></audio>
+    <audio src="sounds/bombo.mp3" data-key="66"></audio>
+    <audio src="sounds/hit-hat.mp3" data-key="188"></audio>
+    <audio src="sounds/hit-hat.mp3" data-key="188"></audio>
+    <audio src="sounds/caja.mp3" data-key="190"></audio>
+    <audio src="sounds/caja.mp3" data-key="90"></audio>
+    <audio src="sounds/tom-aereo.mp3" data-key="76"></audio>
+    <audio src="sounds/tom-aereo.mp3" data-key="83"></audio>
+    <audio src="http://www.henriquemelanda.com.br/assests/midia/tom2.mp3" data-key="75"></audio>
+    <audio src="http://www.henriquemelanda.com.br/assests/midia/tom2.mp3" data-key="68"></audio>
+    <audio src="sounds/tom-suelo.mp3" data-key="74"></audio>
+    <audio src="sounds/tom-suelo.mp3" data-key="70"></audio>
+    <audio src="sounds/platillo-ride.mp3" data-key="78"></audio>
+    <script src="./app.js"></script>
+</body>
+
+</html>
