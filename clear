@@ -1,0 +1,24 @@
+[33mcommit e111e58fefcf536f5a7b931fee8a167967c0d952[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Bryan Urueña <bfuruena@misena.edu.co>
+Date:   Thu Sep 24 11:22:33 2020 -0500
+
+    Proyecto bateria actualizado
+
+[33mcommit dce1cc1a30808a6c1e32ae82ea5d91e253057ac8[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: f0ca6be 7ce6c48
+Author: Bryan Urueña <bfuruena@misena.edu.co>
+Date:   Wed Sep 23 22:34:00 2020 -0500
+
+    Merge branch 'master' of https://github.com/bryan1137/Bateria into master
+
+[33mcommit f0ca6bed1dc2af5d9d39bd1095461cb0e93a099d[m
+Author: Bryan Urueña <bfuruena@misena.edu.co>
+Date:   Wed Sep 23 22:29:46 2020 -0500
+
+    proyecto bateria
+
+[33mcommit 7ce6c48d1b9423a0b95e01575571daa34866a196[m
+Author: bryan1137 <70919537+bryan1137@users.noreply.github.com>
+Date:   Wed Sep 23 22:14:28 2020 -0500
+
+    Initial commit
