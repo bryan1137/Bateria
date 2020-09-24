@@ -4,8 +4,21 @@
 }
 
 body {
-    background-color:#8bd3dd;
+    background-color:rgb(11, 204, 156);
 }
+
+.tittle{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.strong{
+    font-family: 'Architects Daughter', cursive;
+}
+
+
 
 .master {
     width: 600px;
@@ -221,6 +234,16 @@ body {
     background-color: #f1e8eb;
 }
 
+.tom-1:hover{
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+.tom-1:active{
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
 .tom-1::after {
     content: "";
     width: 100px;
@@ -239,6 +262,16 @@ body {
     left: 183px;
     background-color: #e67a4b;
     cursor: pointer;
+}
+
+.tom-2:hover{
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+.tom-2:active{
+    border: 5px solid red;
+    border-radius: 5px;
 }
 
 .tom-2::before {
@@ -292,6 +325,16 @@ body {
     top: 140px;
     left: 60px;
     cursor: pointer;
+}
+
+.tom-suelo:hover{
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+.tom-suelo:active{
+    border: 5px solid red;
+    border-radius: 5px;
 }
 
 .tom-suelo::before {
@@ -456,6 +499,16 @@ body {
     top: 140px;
     right: 112px;
     cursor: pointer;
+}
+
+.caja:hover{
+    border: 3px solid gray;
+    border-radius: 3px;
+}
+
+.caja:active{
+    border: 3px solid red;
+    border-radius: 3px;
 }
 
 .caja::before {
@@ -651,7 +704,7 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-family: 'Courier Prime', monospace;
     color: #FFF;
     font-size: 2em;
 }
@@ -668,4 +721,44 @@ body {
 
 .instructions strong {
     text-transform: uppercase;
+}
+
+.bombo-encima :hover{
+    border: 10px solid gray;
+}
+
+.bombo-encima :active{
+    border: 10px solid red;
+}
+
+.plato-encima :hover{
+    border: 3px solid gray;
+}
+
+.plato-encima :active{
+    border: 3px solid red;
+}
+
+.plato-hit-encima :hover{
+    border-top: 3px solid gray;
+    border-right: 3px solid gray;
+    border-left: 3px solid  gray;
+}
+
+.plato-hit-encima :active{
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-left: 3px solid red;
+}
+
+.plato-hit-abajo :hover{
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    border-left: 3px solid  red;
+}
+
+.plato-hit-abajo :active{
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    border-left: 3px solid red;
 }
